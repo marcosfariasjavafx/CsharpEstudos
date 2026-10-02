@@ -1,0 +1,144 @@
+## ==========================================
+## ARCHIVOS Y CARPETAS DE BUILD (.NET / C#)
+## ==========================================
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+[Ll]og/
+[Ll]ogs/
+artifacts/
+.builds/
+
+## ==========================================
+## VISUAL STUDIO (Arquivos temporários e de usuário)
+## ==========================================
+.vs/
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+Generated\ Files/
+*_i.c
+*_p.c
+*_h.h
+*.ilk
+*.meta
+*.obj
+*.iobj
+*.pch
+*.pdb
+*.ipdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*_wpftmp.csproj
+*.log
+*.vspscc
+*.vssscc
+*.pidb
+*.svclog
+*.scc
+
+## ==========================================
+## VS CODE & RIDER (Outras IDEs populares)
+## ==========================================
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+.idea/
+*.sln.iml
+
+## ==========================================
+## SEGURANÇA & CONFIGURAÇÕES LOCAIS
+## ==========================================
+# Nunca envie segredos ou strings de conexão locais para o Git
+*.env
+*.env.local
+*.env.development
+*.env.production
+appsettings.Development.json
+appsettings.Local.json
+*.pfx
+*.publishsettings
+*.snk
+
+## ==========================================
+## PACOTES & GERENCIADORES DE DEPENDÊNCIAS
+## ==========================================
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+*.nuget.props
+*.nuget.targets
+project.lock.json
+project.fragment.lock.json
+node_modules/
+
+## ==========================================
+## TESTES E COBERTURA DE CÓDIGO
+## ==========================================
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+*.VisualState.xml
+TestResult.xml
+nunit-*.xml
+BenchmarkDotNet.Artifacts/
+OpenCover/
+coverage*.json
+coverage*.xml
+coverage*.info
+*.coverage
+*.coveragexml
+_NCrunch_*
+.*crunch*.local.xml
+nCrunchTemp_*
+
+## ==========================================
+## PUBLICAÇÃO & DEPLOY
+## ==========================================
+publish/
+*.[Pp]ublish.xml
+*.azurePubxml
+*.pubxml
+*.publishproj
+PublishScripts/
+AppPackages/
+BundleArtifacts/
+
+## ==========================================
+## BANCO DE DADOS LOCAL & MIGRATION BACKUPS
+## ==========================================
+*.mdf
+*.ldf
+*.ndf
+MigrationBackup/
+healthchecksdb
+
+## ==========================================
+## SISTEMA OPERACIONAL (Windows / macOS)
+## ==========================================
+.DS_Store
+Thumbs.db
+desktop.ini
+~$*
+*~
